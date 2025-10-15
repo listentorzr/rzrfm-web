@@ -1,2 +1,2 @@
-# rzrfm-web
-Website for RZR FM
+# RZR FM
+<https://rzr.fm/>
