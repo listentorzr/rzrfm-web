@@ -10,12 +10,29 @@
 	</head>
 
 	<body>
-		<h1>
+		<div name="header">
+			<h1>
 			RZR FM
-		</h1>
-    	<p>
-        	Hello World
-		</p>
+			</h1>
+		</div>
+		<div name="Submission Form">
+			<form action="https://formsubmit.co/your@email.com" method="POST">
+				<input type="text" name="name" placeholder="Artist Name" required>
+				<br>
+				<input type="text" name="email" placeholder="Email" required>
+				<br>
+				<textarea placeholder="Message" class="form-control" name="message" rows="10"></textarea>
+				<br>
+				<input type="link" name="link" placeholder="Link to Song" required>
+				<br>
+				<input type="hidden" name="_next" value="https://rzr.fm">
+				<input type="hidden" name="_subject" value="Form Submission">
+				<input type="hidden" name="_captcha" value="false">
+				<input type="text" name="_honey" style="display:none">
+				<input type="submit" placeholder="Submit">
+			</form>
+		</div>
+		
 	</body
 
 </html>
